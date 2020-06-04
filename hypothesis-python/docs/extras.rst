@@ -8,7 +8,7 @@ compatibility and make installing Hypothesis as easy as possible.
 Our integrations with specific packages are therefore provided by ``extra``
 modules that need their individual dependencies installed in order to work.
 You can install these dependencies using the setuptools extra feature as e.g.
-``pip install hypothesis[django]``. This will check installation of compatible versions.
+``pip install hypothesis-django``. This will check installation of compatible versions.
 
 You can also just install hypothesis into a project using them, ignore the version
 constraints, and hope for the best.
